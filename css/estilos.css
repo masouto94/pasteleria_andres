@@ -153,12 +153,17 @@ footer {
     align-items: flex-end;
 }
 
-.footer__redes {
+.footer__redes_container {
     grid-area: redes;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    flex-direction: column;
 
+}
+
+.footer__redes {
+    padding: 1em
 }
 
 .footer__derechos {
