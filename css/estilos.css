@@ -138,6 +138,7 @@ label {
 /* FOOTER */
 footer {
     display: grid;
+    grid-template-columns:3fr;
     grid-template-areas: "navegacion mapa redes"
                         "navegacion mapa derechos";
     background-color: rgb(250, 249, 245);
